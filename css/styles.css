@@ -1,3 +1,37 @@
 #title{
     background-color: #6096B4;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+#titulo{
+    color: white;
+    font-size: 2.5rem;  
+}
+#menu{
+    color: white;
+    font-size: 2.5rem;
+ 
+    
+}
+#Eslogan{
+    color: white;
+    font-size: 1.5rem; 
+    text-align: center;
+}
+#Eslogan h1{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#Eslogan h3{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#logo{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    
+    
 }
