@@ -2,36 +2,53 @@
     background-color: #6096B4;
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Montserrat', sans-serif;
+    
+    padding-bottom: 3%;
 }
 #titulo{
     color: white;
     font-size: 2.5rem;  
 }
 #menu{
-    color: white;
-    font-size: 2.5rem;
- 
-    
+    display: flex;
+    flex-direction: wrap;
+    font-size: 2.5rem;  
+}
+.row {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 3%;
+    padding-top: 3%;
+
 }
 #Eslogan{
     color: white;
     font-size: 1.5rem; 
     text-align: center;
+
 }
 #Eslogan h1{
     padding-top: 1%;
     padding-bottom: 1%;
+    text-align: center;
 }
 #Eslogan h3{
     padding-top: 1%;
     padding-bottom: 1%;
+    text-align: center;
 }
 #logo{
-    margin-top: 4%;
-    margin-bottom: 4%;
-    width: 350px;
-    height: 350px;
-    text-align: center;
-    
-    
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 250px;
+    height: 250px;   
+}
+
+#features{
+    background-color: #EEE9DA;
+    font-family: 'EB Garamond', serif;
+}
+#features p{
+padding-bottom: 2%;
 }
