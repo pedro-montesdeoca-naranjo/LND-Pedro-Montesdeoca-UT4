@@ -52,3 +52,26 @@
 #features p{
 padding-bottom: 2%;
 }
+#Novedades{ 
+    background-color:#BDCDD6 ;
+    font-family: 'EB Garamond', serif;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+#carrusel{
+    text-align:center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#carrusel h2 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#carrusel h6 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#carrusel img{
+    width: 250px;
+    
+}
