@@ -5,6 +5,10 @@
     
     padding-bottom: 3%;
 }
+#nav{
+    background-color: #6096B4;
+    width: 100%;
+}
 #titulo{
     color: white;
     font-size: 2.5rem;  
@@ -85,6 +89,4 @@ padding-bottom: 2%;
     margin-bottom: 20px;
     
 }
-#carrusel .row{
-    text-align: center;
-}
+
