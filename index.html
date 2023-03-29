@@ -29,7 +29,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
         </script>
-
+<!--Favicon-->
+<link rel="icon" type="image/png" href="images/favicon-96x96.png">
 </head>
 
 <body>
@@ -50,15 +51,15 @@
                     <ul class="navbar-nav ms-auto" id="menu">
 
                         <li class="nav-item">
-                            <a class="nav-link navbar-brand text-white px-2 active" aria-current="" href="#features"> <i
+                            <a class="nav-link navbar-brand" aria-current="" href="#features"><i
                                     class="fa-solid fa-house"></i>Inicio</a>
 
                         </li>
                         <li class="nav-item">
-                            <div class="dropdown">
+                            <div class="dropdown" id="Lista">
                                 <button class="btn btn-transparent dropdown-toggle" type="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
-                                    <a class="nav-link navbar-brand text-white px-2" href="#Libros"><i
+                                    <a class="nav-link navbar-brand" href="#Libros"><i
                                             class="fa-solid fa-book-open"></i>
                                         Libros</a>
                                 </button>
@@ -73,11 +74,11 @@
 
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link navbar-brand text-white px-2" href="#Novedades"><i
-                                    class="fa-solid fa-bookmark text-white"></i>Novedades</a>
+                            <a class="nav-link navbar-brand" href="#Novedades"><i
+                                    class="fa-solid fa-bookmark"></i>Novedades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link navbar-brand text-white px-2" href="#Contacto"><i
+                            <a class="nav-link navbar-brand" href="#footer"><i
                                     class="fa-solid fa-phone"></i>Contacto</a> <!--Añadir formularios-->
                         </li>
                     </ul>
@@ -142,7 +143,7 @@
                                 <i class="fa-solid fa-hourglass fa-2x"></i>
                             </div>
                             <h4 class="fw-bold"> <i>Horario </i></h4>
-                            <p>Abrimos de Lunes a Viernes de 10:00 a 20:00.</p>
+                            <p>Abrimos de Lunes a Viernes de 10:00 a 20:00. Sábados de 10:00 a 14:00</p>
                         </div>
                     </div>
                 </div>
@@ -165,37 +166,37 @@
             <div class="carousel-inner text-white">
                 <div class="carousel-item active">
                     <h2>Top ventas en 2022</h2>
-                    <img src="images/el castillo.jpg" alt="100">
-                    <img src="images/lejos de luisiana.jpg" alt="100">
-                    <img src="images/el corresponsal.jpeg" alt="100">
+                    <img src="images/el castillo.jpg">
+                    <img src="images/lejos de luisiana.jpg">
+                    <img src="images/el corresponsal.jpeg">
                     <h6>Tenemos a su disposción los libros mas vendidos en el año 2022</h6>
                 </div>
                 <div class="carousel-item">
                     <h2>Mejor valorado en 2023</h2>
-                    <img src="images/esclavo de la libertad.jpg" alt="100">
-                    <img src="images/el cuco de cristal.jpg" alt="100">
-                    <img src="images/salvar a rafael.jpg" alt="100">
+                    <img src="images/esclavo de la libertad.jpg">
+                    <img src="images/el cuco de cristal.jpg">
+                    <img src="images/salvar a rafael.jpg">
                     <h6>Los libros con las mejores críticas en lo que llevamos de año </h6>
                 </div>
                 <div class="carousel-item">
                     <h2>Oferta de la semana</h2>
-                    <img src="images/el italiano.jpg" alt="100">
-                    <img src="images/harry potter.jpg" alt="100">
-                    <img src="images/la puerta.jpg" alt="100">
+                    <img src="images/el italiano.jpg">
+                    <img src="images/harry potter.jpg">
+                    <img src="images/la puerta.jpg">
                     <h6>Hasta un 40 % de descuento.</h6>
                 </div>
                 <div class="carousel-item">
                     <h2>Recomendación de la semana</h2>
-                    <img src="images/el señor de los anillos.jpg" alt="100">
-                    <img src="images/dime quién soy.jpg" alt="100">
-                    <img src="images/el ruiseñor.jpg" alt="100">
+                    <img src="images/el señor de los anillos.jpg">
+                    <img src="images/dime quién soy.jpg">
+                    <img src="images/el ruiseñor.jpg">
                     <h6>Estos libros son imprescindibles en cualquier biblioteca</h6>
                 </div>
                 <div class="carousel-item">
                     <h2>Autor de la semana</h2>
-                    <img src="images/los pilares de la tierra.jpg" alt="100">
-                    <img src="images/la caída de los gigantes.jpg" alt="100">
-                    <img src="images/la isla de las tormentas.jpg" alt="100">
+                    <img src="images/los pilares de la tierra.jpg">
+                    <img src="images/la caída de los gigantes.jpg">
+                    <img src="images/la isla de las tormentas.jpg">
                     <h6>Las obras de Kent Follet son muy apreciadas por nuestros clientes.</h6>
                 </div>
 
@@ -212,45 +213,49 @@
     </section>
     <!--Listados de productos-->
     <section id="Libros">
-        <h1 class="pb-2 border-bottom"><i>Libros</i></h1>
+        <!--La clase pb crea una línea recta que ocupa todo el espacio  debajo de un elemento-->
+        <h1 class="pb-2 border-bottom"><i><b>Libros</b></i></h1>
         <!--Libros de ficción-->
         <div class="container-fluid row" id="Ficción">
-            <h1 class="pb-2 border-bottom"><i>Ciencia Ficción y Fantasía</i></h1>
+            <h1 class="pb-2 border-bottom"><i><b>Ciencia Ficción y Fantasía</b></i></h1>
             <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="images/la caída de arturo.jpg" class="card-img-top" alt="100">
+                <img src="images/la caída de arturo.jpg" class="card-img-top">
                 <div class="card-body">
-                    <h2 class="card-title">La caída de Arturo</h2>
+                    <h2 class="card-title"><b>La caída de Arturo</b></h2>
                     <p class="card-text"> La caída de Arturo es un poema de J.R.R. Tolkien sobre la leyenda del rey
-                        Arturo</p>
-                    <em class="card-subtitle">Precio: 18,99€</em>
+                        Arturo y sus hazañas en Inglaterra</p>
+                    <em class="card-subtitle"><button class="btn btn-secondary" type="button">Precio:
+                            18,99€</button></em>
                 </div>
             </div>
 
             <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="images/la odisea.jpg" class="card-img-top" alt="100">
+                <img src="images/la odisea.jpg" class="card-img-top">
                 <div class="card-body">
-                    <h2 class="card-title">La odisea</h2>
+                    <h2 class="card-title"><b>La odisea</b></h2>
                     <p class="card-text"> La odisea narra las aventuras de Ulises en su viaje de regreso a Ítaca,
                         después de estar 10 años luchando en la guerra de Troya</p>
-                    <em class="card-subtitle">Precio: 11,99€</em>
+                    <em class="card-subtitle"><button class="btn btn-secondary" type="button">Precio:
+                            11,99€</button></em>
                 </div>
             </div>
             <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="images/la piedra filosofal.jpg" class="card-img-top" alt="100">
+                <img src="images/la piedra filosofal.jpg" class="card-img-top">
                 <div class="card-body">
-                    <h2 class="card-title">Harry Potter y la piedra filosofal</h2>
+                    <h2 class="card-title"><b>Harry Potter y la piedra filosofal</b></h2>
                     <p class="card-text"> Harry Potter y la piedra filosofal es el primer volumen de la clásica saga de
-                        novelas fantásticas de JK Rowling</p>
-                    <em class="card-subtitle">Precio: 15,99€</em>
+                        novelas de JK Rowling</p>
+                    <em class="card-subtitle"><button class="btn btn-secondary" type="button">Precio:
+                            15,99€</button></em>
                 </div>
             </div>
             <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="images/la-isla-del-tesoro.jpg" class="card-img-top" alt="100">
+                <img src="images/la-isla-del-tesoro.jpg" class="card-img-top">
                 <div class="card-body">
-                    <h2 class="card-title">La isla del tesoro</h2>
+                    <h2 class="card-title"><b>La isla del tesoro</b></h2>
                     <p class="card-text">La aventura del pequeño Jim Hawkins empieza cuando llega a la posada de su
                         padre un marinero con una cicatriz en la cara y un voluminoso baúl.</p>
-                    <em class="card-text">Precio: 21,99€</em>
+                    <em class="card-text"><button class="btn btn-secondary" type="button">Precio: 21,99€</button></em>
                 </div>
             </div>
 
@@ -258,125 +263,135 @@
         </div>
         <!--Novelas Históricas-->
         <div class="container-fluid row" id="História">
-            <h1 class="pb-2 border-bottom"><i>Novela Histórica</i></h1>
+            <h1 class="pb-2 border-bottom"><i><b>Novela Histórica</b></i></h1>
             <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="images/La legión perdida.jpg" class="card-img-top" alt="100">
+                <img src="images/La legión perdida.jpg" class="card-img-top">
                 <div class="card-body">
-                    <h2 class="card-title">La legión perdida</h2>
+                    <h2 class="card-title"><b>La legión perdida</b></h2>
                     <p class="card-text">Narra la historia de 10000 legionarios hechos prisisonores tras la batalla de
                         Carras por los partos en año 53 .a.C </p>
-                    <em class="card-subtitle">Precio: 21,99€</em>
+                    <em class="card-subtitle"><button class="btn btn-secondary" type="button">Precio:
+                            21,99€</button></em>
                 </div>
             </div>
 
             <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="images/Las-puertas-de-Atenas.jpg" class="card-img-top" alt="100">
+                <img src="images/Las-puertas-de-Atenas.jpg" class="card-img-top">
                 <div class="card-body">
-                    <h2 class="card-title">Las puertas de Atenas</h2>
+                    <h2 class="card-title"><b>Las puertas de Atenas</b></h2>
                     <p class="card-text"> El Gran Rey, Jerjes lleva años tramando la venganza y está dispuesto a atacar
                         con todas sus huestes para aniquilar las ciudades griegas.</p>
-                    <em class="card-subtitle">Precio: 14,99€</em>
+                    <em class="card-subtitle"><button class="btn btn-secondary" type="button">Precio:
+                            14,99€</button></em>
                 </div>
             </div>
             <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="images/El_hispano.jpg" class="card-img-top" alt="100">
+                <img src="images/El_hispano.jpg" class="card-img-top">
                 <div class="card-body">
-                    <h2 class="card-title">El hispano</h2>
+                    <h2 class="card-title"><b>El hispano</b></h2>
                     <p class="card-text"> Año 134 a. C. Bajo el mando de Retógenes, Numancia lleva más de veinte años
                         resistiendo el poder de la Roma invencible .</p>
-                    <em class="card-subtitle">Precio: 19,99€</em>
+                    <em class="card-subtitle"><button class="btn btn-secondary" type="button">Precio: 19,99€</button>
+                    </em>
                 </div>
             </div>
             <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="images/el nombre de la rosa.jpg" class="card-img-top" alt="100">
+                <img src="images/el nombre de la rosa.jpg" class="card-img-top">
                 <div class="card-body">
-                    <h2 class="card-title">El nombre de la rosa</h2>
+                    <h2 class="card-title"><b>El nombre de la rosa</b></h2>
                     <p class="card-text">La novela emblemática de Umberto Eco.Una trama apasionante. Una admirable
                         reconstrucción del conflictivo siglo XIV.</p>
-                    <em class="card-text">Precio: 21,99€</em>
+                    <em class="card-text"><button class="btn btn-secondary" type="button">Precio: 21,99€</button></em>
                 </div>
             </div>
         </div>
         <!--Novelas Policiacas-->
         <div class="container-fluid row" id="Policiaca">
-            <h1 class="pb-2 border-bottom"><i>Novela Policiaca</i></h1>
+            <h1 class="pb-2 border-bottom"><i><b>Novela Policiaca</b></i></h1>
             <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="images/el asedio.jpg" class="card-img-top" alt="100">
+                <img src="images/el asedio.jpg" class="card-img-top">
                 <div class="card-body">
-                    <h2 class="card-title">El Asedio</h2>
+                    <h2 class="card-title"><b>El Asedio</b></h2>
                     <p class="card-text">El asedio narra el fin de una época y unos personajes condenados por la
                         Historia sentenciados a un vida que nunca volverá a ser la misma.</p>
-                    <em class="card-subtitle">Precio: 17,99€</em>
+                    <em class="card-subtitle"><button class="btn btn-secondary" type="button">Precio:
+                            17,99€</button></em>
                 </div>
             </div>
 
             <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="images/el silencio de los corderos.jpg" class="card-img-top" alt="100">
+                <img src="images/el silencio de los corderos.jpg" class="card-img-top">
                 <div class="card-body">
-                    <h2 class="card-title">El silencio de los corderos</h2>
+                    <h2 class="card-title"><b>El silencio de los corderos</b></h2>
                     <p class="card-text"> En este potente thriller psicológico, Clarice, cautivada por Hannibal, se
                         enfrenta con su ayuda a un despiadado asesino.</p>
-                    <em class="card-subtitle">Precio: 10,99€</em>
+                    <em class="card-subtitle"><button class="btn btn-secondary" type="button">Precio:
+                            10,99€</button></em>
                 </div>
             </div>
             <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="images/la violonchelista.jpg" class="card-img-top" alt="100">
+                <img src="images/la violonchelista.jpg" class="card-img-top">
                 <div class="card-body">
-                    <h2 class="card-title">La violonchelista</h2>
+                    <h2 class="card-title"><b>La violonchelista</b></h2>
                     <p class="card-text">El fatal envenenamiento de un multimillonario ruso envía a Gabriel Allon a un
                         peligroso viaje por Europa .</p>
-                    <em class="card-subtitle">Precio: 18,99€</em>
+                    <em class="card-subtitle"><button class="btn btn-secondary" type="button"> Precio:
+                            18,99€</button></em>
                 </div>
             </div>
             <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="images/la playa de los ahogados.jpg" class="card-img-top" alt="100">
+                <img src="images/la playa de los ahogados.jpg" class="card-img-top">
                 <div class="card-body">
-                    <h2 class="card-title">La playa de los ahogados</h2>
+                    <h2 class="card-title"><b>La playa de los ahogados</b></h2>
                     <p class="card-text">Una mañana, el cadáver de un marinero es arrastrado por la marea hasta la
                         orilla. Si no tuviese las manos atadas a la espalda, sería un ahogado más</p>
-                    <em class="card-text">Precio: 21,99€</em>
+                    <em class="card-text"><button class="btn btn-secondary" type="button">Precio: 21,99€</button></em>
                 </div>
             </div>
 
             <!--Ciencia y Tecnología-->
         </div>
-        <div class="container-fluid row" id="Ciencia">
-            <h1 class="pb-2 border-bottom"><i>Ciencia y Tecnología</i></h1>
+        <div class="container-fluid row"  id="Ciencia">
+            <h1 class="pb-2 border-bottom"><i><b>Ciencia y Tecnología</b></i></h1>
             <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="images/la ecuación de dios.jpg" class="card-img-top" alt="100">
+                <img src="images/la ecuación de dios.jpg" class="card-img-top">
                 <div class="card-body">
-                    <h2 class="card-title">La ecuación de Dios</h2>
+                    <h2 class="card-title"><b>La ecuación de Dios</b></h2>
                     <p class="card-text">La búsqueda del santogrial de la ciencia por el reputado físico teórico Michio
                         Kaku. Edición especial </p>
-                    <em class="card-subtitle">Precio: 19,99€</em>
+                    <em class="card-subtitle"><button class="btn btn-secondary" type="button">Precio:
+                            19,99€</button></em>
                 </div>
             </div>
 
             <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="images/la teoría del todo.jpg" class="card-img-top" alt="100">
+                <img src="images/la teoría del todo.jpg" class="card-img-top">
                 <div class="card-body">
-                    <h2 class="card-title">La teoría del todo</h2>
+                    <h2 class="card-title"><b>La teoría del todo</b></h2>
                     <p class="card-text">En esta esclarecedora obra, el gran físico británico Stephen Hawking nos ofrece
                         una historia del universo, del big bang a los agujeros negros.</p>
-                    <em class="card-subtitle">Precio: 14,99€</em>
+                    <em class="card-subtitle"><button class="btn btn-secondary" type="button">Precio:
+                            14,99€</button></em>
                 </div>
             </div>
             <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="images/python.jpg" class="card-img-top" alt="100">
+                <img src="images/python.jpg" class="card-img-top">
                 <div class="card-body">
-                    <h2 class="card-title">Python para todos</h2>
+                    <h2 class="card-title"><b>Python para todos</b></h2>
                     <p class="card-text"> Cada capitulo contendrà un cierto nùmero de temas relevantes con ilustraciones
                         y ejercicios donde sean necesarios.</p>
-                    <em class="card-subtitle">Precio: 14,99€</em>
+                    <em class="card-subtitle"><button class="btn btn-secondary" type="button">Precio:
+                            14,99€</button></em>
                 </div>
             </div>
             <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="images/html-css.javascript.jpg" class="card-img-top" alt="100">
+                <img src="images/html-css.javascript.jpg" class="card-img-top">
                 <div class="card-body">
-                    <h2 class="card-title">Curso de desarrollo web</h2>
+                    <h2 class="card-title"><b>Curso de desarrollo web</b></h2>
                     <p class="card-text">HTML, CSS y JavaScript son las tres tecnologías básicas en las que se sustenta
                         el desarrollo de páginas web.</p>
-                    <em class="card-text">Precio: 29,99€</em>
+                    <em class="card-subtitle"><button class="btn btn-secondary" type="button">Precio:
+                            29,99€</button></em>
                 </div>
             </div>
 
@@ -389,7 +404,7 @@
             <footer class="py-5">
                 <div class="row">
                     <div class="col-6 col-md-2 mb-3">
-                        <h5>Colaboraciones</h5>
+                        <h5><b>Colaboraciones</b></h5>
                         <ul class="nav flex-column">
                             <li class="nav-item mb-2"><a>Grupo Planeta</a></li>
                             <li class="nav-item mb-2"><a>Editorial Grijalbo</a>
@@ -401,7 +416,7 @@
                     </div>
 
                     <div class="col-6 col-md-2 mb-3">
-                        <h5>Ayuda</h5>
+                        <h5><b>Ayuda</b></h5>
                         <ul class="nav flex-column">
                             <li class="nav-item mb-2"><a>Pago seguro con
                                     tarjeta</a></li>
@@ -416,7 +431,7 @@
                     </div>
 
                     <div class="col-6 col-md-2 mb-3">
-                        <h5>Información legal</h5>
+                        <h5><b>Información legal</b></h5>
                         <ul class="nav flex-column">
                             <li class="nav-item mb-2"><a>Condiciones de uso</a>
                             </li>
@@ -426,14 +441,14 @@
                                     devoluciones y anulaciones</a></li>
                             <li class="nav-item mb-2"><a>Política de
                                     cookies</a></li>
-                            <li class="nav-item mb-2"><a>Política de la
-                                    empresa</a></li>
+
                         </ul>
                     </div>
                     <!--Formulario -->
-                    <div class="col-md-5 offset-md-1 mb-3">
+                    <!--La clase mb añade padding o margin button-->
+                    <div class="col-md-5 offset-md-1 mb-3" id="formulario">
                         <form>
-                            <h5>Contacta con nosotros</h5>
+                            <h5><b>Contacta con nosotros</b></h5>
                             <p>Contacta con atención al cliente a través de este email.</p>
                             <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                                 <label for="newsletter1" class="visually-hidden">Atención al cliente</label>
@@ -450,6 +465,7 @@
                 <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
                     <p>&copy; 2022 Company, Inc. All rights reserved.</p>
                     <ul class="list-unstyled d-flex">
+                        <!--La clase ms añade un espacio-->
                         <li class="ms-3"><a href="https://twitter.com/?lang=es"><i
                                     class="fa-brands fa-twitter fa-2x"></i></a></li>
                         <li class="ms-3"><a href="https://es-es.facebook.com/"><i
