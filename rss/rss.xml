@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title> Eventos </title>
+        <link></link>
+        <description> En este canal podemos visualizar los eventos relacionados con nuestra librería </description>
+        <languaje> es </languaje>
+        <category>Eventos </category>
+        <item>
+            <title>El club de lectura se traslada a los Viernes</title>
+            <link> </link>
+            <description>El club de lectura de Librería Prisma, que normalmente se llevaba a cabo los Jueves a las 16:00 horas, se traslada a los Viernes a las 17:00 debido a varios miembros no pueden acudir dicho día. Además, la librería, dará una merienda a la que estais todos invitados.  </description>
+            <image> 
+                <title>Club de lectura </title>
+                <url>https://www.google.es/search?q=club+de+lectura&hl=es&tbm=isch&source=hp&biw=1600&bih=732&ei=sI8-ZJ3dHribkdUPg8CEmAg&iflsig=AOEireoAAAAAZD6dwC_mL2bT-_0oswZSJIc1ctRwDIUP&ved=0ahUKEwid9ZvgubP-AhW4TaQEHQMgAYMQ4dUDCAc&uact=5&oq=club+de+lectura&gs_lcp=CgNpbWcQAzIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6CwgAEIAEELEDEIMBOggIABCxAxCDAToECAAQAzoECAAQHlAAWP4nYI4paAJwAHgAgAFriAG3DJIBBDE2LjGYAQCgAQGqAQtnd3Mtd2l6LWltZw&sclient=img#imgrc=bmOYiuFEXGxKwM</url>
+                <width>144</width>
+                <height>24</height>
+            </image>
+            <comments>Fecha de publicación: 18/04/2023</comments>
+        </item>
+        <item>
+            <title>Presentación del libro Geografía de las Islas Canarias </title>
+            <link> </link>
+            <description>El próximo día 21 a las 16:00 en nuestro salón de reuniones tendrá lugar la presentación del libro Geografía de las Islas Canarias de la mano de su autora; Elisee Reclus </description>
+            <image> 
+                <title>La Geografía de Canarias</title>
+                <url> https://www.google.es/search?q=libro+geograf%C3%ADa+de+canarias&tbm=isch&ved=2ahUKEwih9NLjubP-AhWfkScCHVC7DBcQ2-cCegQIABAA&oq=libro+geograf%C3%ADa+de+canarias&gs_lcp=CgNpbWcQAzoKCAAQigUQsQMQQzoHCAAQigUQQzoFCAAQgAQ6CAgAEIAEELEDOgsIABCABBCxAxCDAToGCAAQCBAeULMGWOI2YPw5aABwAHgAgAGIAYgByxeSAQQwLjI4mAEAoAEBqgELZ3dzLXdpei1pbWewAQDAAQE&sclient=img&ei=t48-ZOG8Kp-jnsEP0PayuAE&bih=732&biw=1600&hl=es#imgrc=4poUlefetLOkYM</url>
+                <width>144</width>
+                <height>24</height>
+            </image>
+            <comments>Fecha de publicación: 18/04/2023</comments>
+        </item>
+        <category>Día del libro <category>
+        <item>
+            <title> Día del Libro en Guía </title>
+            <link> </link>
+            <description>En el día del libro estaremos en la feria del libro en Santa María de Guía. Agradecemos al EXMO Ayuntamiento de Guía por su invitación. Estaremos junto a la plaza del ayuntamiento, les esperamos con los libros abiertos.</description>
+            <image>
+                <title>Feria del libro</title>
+                <url>https://www.google.es/search?q=feria+del+libro+en+gu%C3%ADa&tbm=isch&ved=2ahUKEwjQvr2vurP-AhU6pCcCHe-bAv4Q2-cCegQIABAA&oq=feria+del+libro+en+gu%C3%ADa&gs_lcp=CgNpbWcQAzoICAAQgAQQsQM6BQgAEIAEOgcIABCKBRBDOgoIABCKBRCxAxBDOgsIABCABBCxAxCDAToICAAQsQMQgwE6DQgAEIoFELEDEIMBEEM6BAgAEAM6BggAEAUQHjoGCAAQCBAeOgcIABAYEIAEUKwGWNsuYJ00aABwAHgAgAGqAYgBwRWSAQQxLjIzmAEAoAEBqgELZ3dzLXdpei1pbWewAQDAAQE&sclient=img&ei=VpA-ZNC7LLrInsEP77eK8A8&bih=732&biw=1600&hl=es#imgrc=ZD8JDsSrFj6-pM</url>
+                <width>144</width>
+                <height>24</height>
+            </image>
+            <comments>Fecha de publicación: 18/04/2023</comments>
+        </item>
+    </channel>
+    <channel>
+        <title> Entrevistas </title>
+        <link></link>
+        <description> En este canal podemos visualizar entrevistas a los autores mas destacados del momento</description>
+        <languaje> es </languaje>
+        <category>Autor canario</category>
+        <item>
+            <title>Entrevista a  </title>
+            <link> </link>
+            <description></description>
+            <image> 
+                <width>144</width>
+                <height>24</height>
+            </image>
+            <comments>Fecha de publicación: 18/04/2023</comments>
+        </item>
+        <item>
+            <title> Entrevista a  </title>
+            <link> </link>
+            <description></description>
+            <image>
+                <width>144</width>
+                <height>24</height>
+            </image>
+            <comments>Fecha de publicación: 18/04/2023</comments>
+        </item>
+        <category>Autor Internacional</category>
+        <item>
+            <title>Entrevista a Kent Follet </title>
+            <link> </link>
+            <description></description>
+            <image> 
+                <width>144</width>
+                <height>24</height>
+            </image>
+            <comments>Fecha de publicación: 18/04/2023</comments>
+        </item>
+    </channel>
+</rss>
